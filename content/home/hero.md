@@ -17,11 +17,11 @@ hero_media = "hero-academic.png"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+   color = "#f8f1d9"
   
   # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
+  # gradient_start = "#4bb4e3"
+  # gradient_end = "#2b94c3"
   
   # Background image.
   # image = ""  # Name of image in `static/media/`.
@@ -31,20 +31,20 @@ hero_media = "hero-academic.png"
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "¡Empecemos!"
+  url = "https://rstudio.github.io/learnr/"
+  label = "Sitio Web de {learnr} (en inglés)"
   icon_pack = "fas"
 #  icon = "download"
   
-[cta_alt]
-  url = "https://rstudio.github.io/learnr/"
-  label = "Sitio Web de {learnr}"
+#[cta_alt]
+#  url = "https://rstudio.github.io/learnr/"
+#  label = "Sitio Web de {learnr}"
 
 # Note. An optional note to show underneath the links.
 #[cta_note]
