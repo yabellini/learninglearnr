@@ -1,24 +1,57 @@
 ---
+authors:
+- admin
+bio: ""
+education:
+  courses:
+  - course: Magister en Explotación de Datos y Gestión del Conocimiento
+    institution: Universidad Austral
+    year: 2015
+  - course: Licenciada en Sistemas de Información
+    institution: Universidad del Salvador
+    year: 2005
+  - course: Instructora certificada de RStudio (Tidyverse)
+    institution: RStudio
+    year: 2019
+  - course: Instructora certificada de Software Carpentries
+    institution: The Carpentries
+    year: 2020
+    
+email: ""
+name: Yanina Bellini Saibene
+organizations:
+- name: Instituto Nacional de Tecnología Agropecuaria
+  url: "https://inta.gob.ar/personas/bellini.yanina"
+- name: MetaDocencia
+  url: "https://www.metadocencia.org"
+- name: R-Ladies (Global Team y Organizadora Santa Rosa)
+  url: "https://rladies.org"
+- name: MiR 
+  url: ""
+  
+role: Docente
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
+  link: https://twitter.com/yabellini
+- icon: globe
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://yabellini.netlify.com/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=5MYAHx4AAAAJ&hl=es
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
-superuser: true
-title: Yanina Bellini Saibene
+  link: https://github.com/yabellini
+superuser: false
 user_groups:
--
+- Equipo Coordinador
 ---
 
-Hola
+Yani es investigadora de INTA en La Pampa. Tiene experiencia docente en todos los niveles educativos, desde primario a universitario, desde 1993. Forma docentes desde 1996 a través de la Red Federal de Formación Docente Continua (Ministerio de Educación de la Nación) y el sistema de transferencia y extensión del INTA. Dictó más de 40 cursos y talleres sobre tecnologías de la información y la comunicación (TICs). Realiza parte de su trabajo de forma remota desde el año 2009, incluyendo la defensa de sus tesis de maestría en esta modalidad en 2015. Desde 2019 es [Instructora certificada de RStudio](https://education.rstudio.com/trainers/).
+Organizó más de 40 eventos (de alcance regional e internacional)  entre los que se destacan ser chair general de las [Jornadas Argentinas de Informática (2020)](http://www.sadio.org.ar/jaiio/) y  fundadora y actual chair de [LatinR 
+](https://latin-r.com), una de las conferencias latinoamericanas más grandes sobre el uso de R en investigación y desarrollo.  
+Yani es activista de las iniciativas abiertas (software, datos y ciencia). Desde 2017 es parte de varias iniciativas voluntarias que implican trabajo remoto colaborativo con profesionales de un arco amplio de disciplinas y países, dentro de las que se destacan [R-Ladies](https://rladies.org/) y [R4DS](https://github.com/cienciadedatos). Esta última iniciativa realizó la traducción del libro [R para Ciencia de Datos](https://es.r4ds.hadley.nz) y del paquete datos al Español. También ayuda con #DatosDeMiercoles en Twitter. 

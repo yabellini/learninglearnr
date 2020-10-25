@@ -52,5 +52,6 @@ hero_media = "hero-academic.png"
 +++
 
 **En este sitio cuento mi camino aprendiendo a usar {learnr} para generar tutoriales interactivos.**
+
 Este tipo de tutoriales son muy útiles para clases remotas, sincrónicas o asincrónicas y como ayuda de un paquete.
 
