@@ -1,6 +1,8 @@
 # learninglearnr
 
-Some link to vector graphics: https://www.stockio.com/free-vector/communication-objects-for-design-vector-illustrations-6
+Some link to vector graphics:
+
+https://www.stockio.com/free-vector/communication-objects-for-design-vector-illustrations-6
 
 https://www.stockio.com/free-vector/smartphone-services
 
