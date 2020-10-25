@@ -12,7 +12,7 @@ weight: 1
 tags: 
     - Recursos
     - Mapas Conceptuales
-    - open education
+    - Open Education
 ---
 
 ## ¿Qué es un mapa conceptual?

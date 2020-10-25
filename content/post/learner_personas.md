@@ -12,7 +12,7 @@ weight: 1
 tags: 
     - Recursos
     - Personas tipo
-    - open education
+    - Open Education
 ---
 
 ## ¿Qué es una persona tipo?
