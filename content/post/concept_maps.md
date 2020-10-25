@@ -1,5 +1,5 @@
 ---
-date: "2020-10-25"
+date: "2020-10-24"
 draft: false
 type: page
 linktitle: Mapas conceptuales en un tutorial interactivo
@@ -12,7 +12,7 @@ weight: 1
 tags: 
     - Recursos
     - Mapas Conceptuales
-  
+    - open education
 ---
 
 ## ¿Qué es un mapa conceptual?
