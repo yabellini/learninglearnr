@@ -29,11 +29,8 @@ organizations:
 - name: MiR 
   url: ""
   
-role: Docente
+role: Yanina Bellini Saibene
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/yabellini
@@ -46,7 +43,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/yabellini
-superuser: false
+superuser: true
 user_groups:
 - Docente
 ---
