@@ -186,7 +186,7 @@ Los tutoriales se pueden publicar de la misma manera que las aplicaciones Shiny,
 
 Otra forma de implementar un tutorial es incluirlo dentro de un paquete R y hacer que los usuarios lo ejecuten directamente a través de la función `learnr::run_tutorial`.  Aún estoy investigando esta última opción y realizaré un post con la experiencia.
 
-Les dejo el [acceso al archivo RMarkdown del tutorial](/post/Tutorial/TuTorial.rmd) que fuí usando de ejemplo en este post para que puedan revisarlo, ejecutarlo y modificarlo por su cuenta.
+Les dejo el [acceso al archivo RMarkdown del tutorial](https://yabellini.netlify.app/post/Tutorial/TuTorial.rmd) que fuí usando de ejemplo en este post para que puedan revisarlo, ejecutarlo y modificarlo por su cuenta.
 
 > Cross post con [mi sitio web](https://yabellini.netlify.app/es/post/tutorialesconlearnr/)
 
