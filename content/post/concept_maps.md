@@ -97,4 +97,4 @@ graph LR;
 
 Cualquiera sea la herramienta que seleccionemos para generar y agregar nuestros mapas, es una herramienta interesante para ordenar y compartir mapas mentales de nuestras lecciones.
 
-Y si generas algunos mapas conceptuales, compartilos, seguro todas y todos vamos a aprender y a aprovecharlos.
+Y si generas algunos mapas conceptuales, compartilos (aún mejor, contribuí a la colección de mapas conceptuales que ya existen), seguro todas y todos vamos a aprender y a aprovecharlos.
