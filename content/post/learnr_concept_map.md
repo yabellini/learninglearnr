@@ -2,9 +2,9 @@
 date: "2020-10-26"
 draft: false
 type: page
-linktitle: Un mapas conceptual sobre {learnr}
+linktitle: Un mapa conceptual sobre {learnr}
 summary: En este mapa conceptual intento describir los componentes de un tutorial de learnr.
-title: Un mapas conceptual sobre {learnr}
+title: Un mapa conceptual sobre {learnr}
 authors: 
     - admin
 type: post
@@ -15,86 +15,37 @@ tags:
     - Open Education
 ---
 
-## ¿Qué es un mapa conceptual?
+## Mapas conceptuales
 
-Los [mapas conceptuales](https://teachtogether.tech/es/index.html#s:memory-concept-maps) representan un modelo mental del tema que se quiere enseñar. Ayudan a las y los docentes a describir lo que quieren enseñar, brindan a otras y otros instructores una descripción general rápida de una lección y permiten a las y los estudiantes verificar que han construido el modelo mental correcto.
+en un post anterior hablamos sobre los [mapas conceptuales](https://teachtogether.tech/es/index.html#s:memory-concept-maps) y como representan un modelo mental del tema que se quiere enseñar. 
 
-Un mapa conceptual está compuesto por dos componentes principales: los conceptos que queremos enseñar (en general se los nombra usando sustantivos) y las relaciones entre esos conceptos (en general se los nombra con verbos).
+Como parte de las actividades de [LatinR](https://latin-r.com/) y en el marco de [MetaDocencia](https://www.metadocencia.org) desarrollamos un curso sobre {learnr} y como corresponde generamos el mapa conceptual correspondiente:
 
-El siguiente ejemplo es un mapa conceptual sobre **RMarkdown** realizado por _Yanina Bellini Saibene, Gabriela Sandoval, Florencia D'Andrea y Mónica Alonso_:
 
-{{< figure src="/media/rmarkdown_concept_map.svg" alt="Mapa conceptual de RMarkdown">}}
+{{< figure src="/media/learnr-tutorial_concept_map.svg" alt="Mapa conceptual de un tutorial {learnr}">}}
 
-## Usos de un mapa conceptual
+## Descripción del mapa conceptual
 
-Los mapas conceptuales pueden usarse para construir una lección ya sea por tu cuenta o con tus colegas.  El desarrollo del mapa conceptual permitirá ponerse de acuerdo con los conceptos y las relaciones que estos tienen y decidir que temas entran en el curso, cuales no y quien puede enseñar cada uno.  Con el mapa conceptual terminado también se puede analizar cuantos conceptos debemos enseñar y organizar las lecciones para introducir los conceptos necesarios de una manera que nos permita bajar la carga cognitiva de los estudiantes.
+El paquete {learnr} se basa en {rmarkdown} para generar los tutoriales, por eso el mapa dice que un documento **rmarkdown** puede ser un **tutorial**.  Ese documento contiene:
 
-Los mapas también pueden ser utilizados como una herramienta de evaluación, por ejemplo: 
+* **rmarkdown** que produce **texto con formato** incluido en el **documento**, 
+* un encabezado **YAML** que es usado por **metadatos** y controla el formato y comportamiento del **documento**.
+* y por supuesto, **código R** que puede estar **en línea** en el texto o bien en **chunks** de código.
 
-* presentar un mapa conceptual incompleto y pedir a los estudiantes que lo terminen: por ejemplo sin relaciones, relaciones sin nombre o sin presencia de conceptos importantes.
+Ese **código R** en los **chunks** genera diferentes tipos de **contenido** como **texto, tablas y gráficos** que se incluyen en el **documento**. El código puede o no ser visible en el documento; este mismo código puede o no ser ejecutado en el documento rmarkdown. En general no se ejecuta cuando el código es el objeto que queremos incluir y mostrar en el documento final.
 
-* pedir a las y los estudiantes que generen un mapa conceptual propio.
+En un tutorial de {learnr} los **chunks** pueden tener **nombre** y **parámetros** como en cualquier otro documento **rmarkdown**; la diferencia está en algunos nombres y parámetros especiales.
 
-* pedir a las y los estudiantes que comparen su mapa conceptual con el mapa del docente.
+Si un **chunk** de código se marca con el parámetro _exercise = TRUE_ entonces este es un tipo especial de chunk que solo está presente en {learnr}: es un tipo **ejercicio**, que puede contener **código completo o incompleto** como ejemplo de lo que se desea enseñar o demostrar, puede tener **pistas** para ayudar en la resolución del ejercicio y **soluciones** que presenta una de las posibles soluciones válidas al ejercicio.  Los chunks de código de pistas y soluciones tienen nombres especiales que deben terminar con las palabras _-hint_ y _-solution_ respectivamente.  Estos ejercicios también pueden tener **comentarios (correcciones)** cada vez que se ejecuta una porción de código.
 
-## Agregando un mapa conceptual a un tutorial interactivo
+En un **chunk** de código también podemos utilizar las funciones de **preguntas**, que pueden ser de **opción múltiple** con respuestas excluyentes o no.  Las preguntas también pueden proveer **comentarios personalizados** con los cuales se puede guiar al estudiante en el entiedimiento de los conceptos determinando que se ha entendido de forma errónea en caso que resuelva de forma incorrecta la pregunta.
 
-Hay al menos dos maneras de agregar un mapa conceptual a nuestros tutoriales
+Finalmente, el mapa conceptual relaciona el concepto de **documento**, que en nuestro caso es el tutorial, con la forma en que podemos distribuir o publicar el mismo: como **paquete** o como **sitio web**.
 
-* Agregar una imágen con el mapa.
-* Generar un diagrama con el paquete `DiagrammeR`.
+## En construcción
 
-### Agregar una imágen
+Este mapa es una primera aproximación describiendo los elementos más importantes de un tutorial de {learnr} como parte del universo {rmarkdown}. ¿Qué más le agregarías?, ¿Qué parte necesita más detalle?, ¿Cómo sería tu mapa conceptual de {learnr}?
 
-Los mapas conceptuales se pueden generar con herramientas como editores de diapositivas (PowerPoint, Google Slides, etc.) o programas para dibujar diagramas como [diagrams.net](https://www.diagrams.net/) que se puede usar online o se puede descargar para usarlo sin conexión.
 
-Sin importar la herramienta que usemos, evetualmente, tendremos una imágen (.png, .jpg, .svn) con nuestro mapa conceptual para agregar a nuestro tutorial.  El código para hacer esto es el siguiente:
 
-````{r}
-```{r, echo=FALSE, out.width="100%", fig.align = "center"}
-knitr::include_graphics("images/mapa_conpceptual.png")  
-```
-````
-Este código agrega el mapa conceptual al tutorial de esta manera:
-{{< figure src="/media/learnr_conceptmap_ggplot.png" alt="Captura de pantalla del tutorial con el mapa conceptual">}}
 
-Antes de ponerte a generar tus mapas conceptuales desde cero, te recomiendo que revises el [listado de mapas conceptuales generados](https://github.com/rstudio/concept-maps) por el equipo de RStudio Education y sus instructores certificados. Su licencia de uso es CC-BY y en la carpeta 'es' están las versiones traducidas al español.
-
-También podés revisar mi repositorio con [mapas conceptuales](https://github.com/yabellini/concept_maps) de algunas de mis lecciones y cursos.  La licencia también es CC-BY y en la carpeta 'es' están las versiones en español.
-
-### Generar un diagrama con el paquete `DiagrammeR`
-
-[DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) es un paquete que permite compilar texto en diagramas.  Su sintaxis es muy amplia, dependiendo del tipo de diagrama que querramos generar. Vamos a ver un ejemplo: 
-
-* Los _conceptos_ que van dentro de los recuadros se escriben entre corchetes **[]**.  Se puede dar un nombre a este nodo del diagrama para poder referenciar al mismo cuando se deban generar relaciones.  En el código de ejemplo: *A[Gráficos]* genera un rectángulo con la palabra *Gráficos* dentro que se llama _A_. La _A_ no se muestra en la visualización.
-
-* Las relaciones se expresan con una flecha compuesta por dos guiones y un signo mayor: **-->**. Para asignarles un texto, se escribe dicho texto después de la flecha encerrado entre pipes **|**. Por ejemplo: **-->|tienen|** genera una flecha con el texto _tienen_.
-
-* Para completar la relación se debe indicar el nodo de origen, usando su nombre (por ejemplo la letra *A* que correspondía al nodo *Gráficos*) y el nodo destino, también usando su nombre.
-
-El siguiente código de ejemplo genera el diagrama del tutorial de gráficos.
-
-````{r}
-```{r echo=FALSE}
-DiagrammeR("
-graph LR;
-  A[Gráficos] -->|tienen| B[Gramática];
-  A -->|tipo| C[Barra];
-  A -->|tipo| D[Puntos];
-  A -->|tipo| E[Lineas];
-  A -->|tipo| L[Areas];
-  B -->|son| F[Reglas];
-  B -->|compuesta por| G[Variables de datos];
-  B -->|compuesta por| H[Atributos estéticos];
-  B -->|compuesta por| I[Objetos Geométricos];
-  F -->|combinan| J[capas]
-  K[ggplot2] -->|implementa| B
-")
-
-```
-````
-### Consideraciones finales
-
-Cualquiera sea la herramienta que seleccionemos para generar y agregar nuestros mapas, es una herramienta interesante para ordenar y compartir mapas mentales de nuestras lecciones.
-
-Y si generas algunos mapas conceptuales, compartilos (aún mejor, contribuí a la colección de mapas conceptuales que ya existen), seguro todas y todos vamos a aprender y a aprovecharlos.
