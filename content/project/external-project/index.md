@@ -1,11 +1,11 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+date: "2020-06-07T00:00:00Z"
+external_link: https://softloud.github.io/parameterpal/
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Captura de pantalla del sitio de {parameterpal}
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: Un tutorial armado para {parameterpal} de _Charles T. Gray_. Un paquete para obtener parámetros beta de condiciones interpretables.
 tags:
-- Demo
-title: External Project
+- Paquetes
+title: Tutorial de {parameterpal}
 ---
