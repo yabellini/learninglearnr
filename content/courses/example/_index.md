@@ -1,56 +1,95 @@
 ---
-date: "2018-09-09T00:00:00Z"
+date: "2020-10-03T00:00:00Z"
 draft: false
-lastmod: "2018-09-09T00:00:00Z"
-linktitle: An Example Course
+lastmod: "2020-10-03T00:00:00Z"
+linktitle: Generando tutoriales interactivos con el paquete {learnr}
 menu:
   example:
-    name: Overview
+    name: Información General
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
-title: Overview
+summary: Aprende como usar {learnr} para construir tutoriales interactivos con R.
+title: Información General
 toc: true
 type: docs
 weight: 1
 ---
 
-## Flexibility
+## Introducción
 
-This feature can be used for publishing content such as:
+Este curso fue desarrollado en el marco de [MetaDocencia](https://www.metadocencia.org/) junto a [Paola Corrales](https://paocorrales.github.io/) para ser dictado en [LatinR 2020](https://latin-r.com/).  Los capítulos de [R-Ladies](https://rladies.org/) [Santa Rosa (La Pampa)](https://rladies.org/) y [General Pico (La Pampa)](https://www.meetup.com/es/rladies-general-pico) fueron los anfitrones de este curso.
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+## Cronograma del curso y objetivos de cada episodio:
 
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+### Inicio
+_tiempo total 10 minutos_ 
 
-## Delete tutorials
+- Introducción de las docentes y del curso.
+- Repaso de las opciones comunes de las herramientas que vamos a usar.
 
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+### Episodio 1 
+_tiempo total 15 minutos_
 
-## Update site menu
+* Pregunta: ¿Qué es un tutorial interactivo?
 
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+* Objetivos: 
+  - Entender los beneficios de un tutorial interactivo 
+  - Entender los componentes básicos de un tutorial interactivo
 
-For example, if you delete this folder, you can remove the following from your menu configuration:
+* Práctica: analizar la plantilla de learnr y reconocer las partes del tutorial, cambiar alguna opción en el YAML y analizar el cambio de comportamiento.
 
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
+### Episodio 2 
+_tiempo total 20 minutos_
 
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+* Pregunta: ¿Cómo agrego preguntas a mi tutorial?
 
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
+* Objetivos:
+  - Entender los tipos de preguntas que existen en un tutorial learnr
+  - Entender los componentes básicos de las preguntas multiple choice
+  - Entender los componentes básicos de las preguntas de texto
 
-## Update the docs menu
+* Práctica: modificar una serie de preguntas en un tutorial de ejemplo armado para este taller.
 
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+### Corte 1
+_10 minutos_
+
+### Episodio 3 
+_tiempo total 25 minutos_
+
+* Pregunta: ¿Cómo puedo realizar ejercicios con código en mis tutoriales?
+
+* Objetivos:
+  - Entender los componentes básicos de los ejercicios
+  - Entender el chunk exercise
+  - Entender el chunk hint
+  - Entender el chunk solution
+  - Entender el setup previo de los chunks **revisar esto**
+
+* Practica: modificar un chunk de ejercicio previamente generado en el ejemplo y modificarlo para que entregue un hint y muestre una solución
+
+### Episodio 4
+_tiempo total 15 minutos_
+
+* Pregunta: ¿Cómo comparto mis tutoriales?
+
+* Objetivos: 
+  - Entender las diferentes maneras de publicar/compartir un tutorial con learnr
+  - Entender las ventajas y desventajas de cada una
+
+* Práctica: publicar el tutorial como una shiny app.
+
+### Episodio 5 
+_tiempo total 10 minutos_
+
+* Pregunta: ¿Dónde aprendo más?
+
+* Objetivos:
+  - Detalles de lugares donde aprender más sobre learnr
+  - Detalle de paquetes que se pueden usar con learnr
+  - Detalle de repositorios con código fuente de diferentes tipos de tutoriales.
+
+### Cierre del taller
+_tiempo total 10 minutos_
+
+- Solicitud de completar al encuesta de feedback del curso.
+- Contacto docentes.
+- Espacio para comentarios y preguntas.
