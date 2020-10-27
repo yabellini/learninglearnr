@@ -11,3 +11,5 @@ https://www.stockio.com/free-vector/flat-design-vector-illustration-concept-icon
 https://www.stockio.com/free-vector/set-of-flat-design-concept-icons-for-web-and-mobile-services
 
 https://www.stockio.com/free-vector/smartphone-services
+
+https://www.stockio.com/free-vector/graduation-vectors
