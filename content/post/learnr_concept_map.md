@@ -19,7 +19,7 @@ tags:
 
 en un post anterior hablamos sobre los [mapas conceptuales](https://teachtogether.tech/es/index.html#s:memory-concept-maps) y como representan un modelo mental del tema que se quiere enseñar. 
 
-Como parte de las actividades de [LatinR](https://latin-r.com/) y en el marco de [MetaDocencia](https://www.metadocencia.org) desarrollamos un curso sobre {learnr} y como corresponde generamos el mapa conceptual correspondiente:
+Como parte de las actividades de [LatinR](https://latin-r.com/) y en el marco de [MetaDocencia](https://www.metadocencia.org) desarrollamos un curso sobre {learnr} y como corresponde generamos el mapa conceptual correspondiente (y contribuimos con esta versión a la [colección de mapas conceptuales](https://github.com/rstudio/concept-maps) de RStudio Education):
 
 
 {{< figure src="/media/learnr-tutorial_concept_map.svg" alt="Mapa conceptual de un tutorial {learnr}">}}
