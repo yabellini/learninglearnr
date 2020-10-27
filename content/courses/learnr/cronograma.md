@@ -12,7 +12,7 @@ type: docs
 weight: 1
 ---
 
-## Cronograma del curso y objetivos de cada episodio:
+## Cronograma del curso y objetivos de cada episodio
 
 ### Inicio
 _tiempo total: 10 minutos_ 
