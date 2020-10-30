@@ -101,9 +101,9 @@ Los chunks de código también se comportan de la misma manera, con excepción d
 
 ## ¿Cómo genero un nuevo tutorial de learnr?
 
-Primero hay que intalar el paquete {learnr} y luego de eso seleccionamos **File -> New File -> Rmarkdown -> From Template -> learnr**
+Primero hay que intalar el paquete {learnr} (`install.packages("learnr")`) y luego de eso seleccionamos **File -> New File -> Rmarkdown -> From Template -> learnr**
 
-Nos presentará una plantilla con los elementos básicos de un tutorial.  Para más info leer [este post]()
+Nos presentará una plantilla con los elementos básicos de un tutorial.  
 
 
 ## Ejercicio: 10 minutos
