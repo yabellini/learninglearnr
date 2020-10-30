@@ -45,7 +45,7 @@ sumar(___,___)
 ```
 ````
 
-{{< figure src="/media/ejercicio_con_consejo_learnr.png" alt="Ejemplos de código para completar, pista y consejo y como se ve en el tutorial">}}
+{{< figure src="/media/ejercicio_con_consejo_learn.png" alt="Ejemplos de código para completar, pista y consejo y como se ve en el tutorial">}}
 
 
 Si se quiere dar algunas pistas para ayudar a los estudiantes en la resolución de los ejercicios, especialmente si conocemos que el tema que estamos enseñando tiene errores de compresión comunes, podemos hacerlo generando un nuevo chunk de R con el mismo nombre que el chunk del ejercicio al que le agregamos la palabra `-hint`.
