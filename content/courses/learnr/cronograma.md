@@ -39,7 +39,7 @@ _tiempo total: 20 minutos_
 * Objetivos:
   - Entender los tipos de preguntas que existen en un tutorial learnr
   - Entender los componentes básicos de las preguntas multiple choice
-  - Entender los componentes básicos de las preguntas de texto
+  - Entender los componentes básicos de las preguntas de texto **proximamente**
 
 * Práctica: modificar una serie de preguntas en un tutorial de ejemplo armado para este taller.
 
@@ -56,7 +56,7 @@ _tiempo total: 25 minutos_
   - Entender el chunk exercise
   - Entender el chunk hint
   - Entender el chunk solution
-  - Entender el setup previo de los chunks **revisar esto**
+  - Entender el setup previo de los chunks **proximamente**
 
 * Practica: modificar un chunk de ejercicio previamente generado en el ejemplo y modificarlo para que entregue un hint y muestre una solución
 
