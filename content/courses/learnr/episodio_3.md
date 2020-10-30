@@ -35,7 +35,7 @@ Cuando compilamos el documento en el lugar del chunk de ejercicio se presenta un
 Los chunks de ejercicios pueden contener código para completar, como una plantilla, para ayudar al estudiante a resolver la ejercitación o para concentrarse sólo en el tema o característica que estamos enseñando.
 
 
-````markdown
+````
 ```{r funcion-sumar, exercise=TRUE, exercise.lines = 5}
 sumar <- function(___,___) {
   ______
@@ -50,7 +50,7 @@ sumar(___,___)
 
 Si se quiere dar algunas pistas para ayudar a los estudiantes en la resolución de los ejercicios, especialmente si conocemos que el tema que estamos enseñando tiene errores de compresión comunes, podemos hacerlo generando un nuevo chunk de R con el mismo nombre que el chunk del ejercicio al que le agregamos la palabra `-hint`.
 
-````markdown
+````
 ```{r funcion-sumar-hint}
 sumar <- function(___,___) {
   # Aqui debe ir el calculo sumando los dos parámetros 
@@ -63,7 +63,7 @@ sumar(___,___)
 
 También podemos proveer la solución esperada, especialmente porque los problemas de programación pueden tener más de una solución válida.  Para ello generamos un nuevo chunk de R, con el mismo nombre del ejercicio y le agregamos la palabra `-solution`.
 
-````markdown
+````
 ```{r funcion-sumar-solution}
 sumar <- function(numero1,numero2) {
   numero1+numero2
