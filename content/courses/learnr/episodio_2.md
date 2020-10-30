@@ -41,3 +41,11 @@ En la figura se detalla el código y como se visualiza cada opción en la interf
 
 {{< figure src="/media/learner_partes_de_una_pregunta.png" alt="preguntas multiple choise en learnr">}}
 
+## Ejercicio: 10 minutos!!!
+
+* Sobre el tutorial que crearon en el ejercicio anterior:
+* Vayan hasta las preguntas (### Quiz) y modifiquen:
+  - la primera pregunta para que tenga un mensaje cuando la opción es incorrecta y permita intentarlo de nuevo.
+  - La segunda pregunta para que se pueda intentarlo de nuevo y muestre un mensaje de “Muy bien!” cuando se seleccionan las respuestas correctas.
+* Consulten la ayuda para `?question` y `?quiz` (o presionando F1 arriba del nombre de la función) .
+
