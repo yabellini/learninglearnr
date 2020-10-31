@@ -1,16 +1,13 @@
 ---
-date: "2020-05-21T00:00:00Z"
+date: "2020-10-31T00:00:00Z"
 external_link: ""
-image:
-  caption:Proyectos utilizando {learnr}
-  focal_point: Smart
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/yabellini
 slides: 
-summary: Paquete con plantillas de {learnr} en español y con una estructura de tutorial sugerida.
+summary: Paquete con plantillas de learnr en español y con una estructura de tutorial sugerida
 tags:
 - Tutorial
 - Open Education
