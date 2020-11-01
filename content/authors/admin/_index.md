@@ -10,13 +10,6 @@ education:
   - course: Licenciada en Sistemas de Información
     institution: Universidad del Salvador
     year: 2005
-  - course: Instructora certificada de RStudio (Tidyverse)
-    institution: RStudio
-    year: 2019
-  - course: Instructora certificada de Software Carpentries
-    institution: The Carpentries
-    year: 2020
-    
 email: ""
 name: Yanina Bellini Saibene
 organizations:
@@ -48,15 +41,14 @@ user_groups:
 - Docente
 ---
 
-Soy investigadora de [INTA en La Pampa](https://inta.gob.ar/anguil) y fundadora de [MetaDocencia](https://metadocencia.netlify.app/) una organización educativa abierta, gratuita, dirigida por voluntarios y sin fines de lucro.
+Soy investigadora de [INTA]((https://inta.gob.ar/anguil)) en La Pampa, Argentina, donde vivo con mi marido y mis dos hermosos hijos.  Soy fundadora de [MetaDocencia](https://metadocencia.netlify.app/) una organización educativa abierta, gratuita, dirigida por voluntarios y sin fines de lucro que _enseña a docentes de habla hispana herramientas y estratégias para enseñar tecnología tanto de forma on-line como presencial_.
 
 Tengo experiencia docente en todos los niveles educativos, desde primario a universitario, desde 1993. He formado docentes desde 1996 a través de la Red Federal de Formación Docente Continua (Ministerio de Educación de la Nación) y el sistema de transferencia y extensión del INTA. Dicté más de 60 cursos y talleres sobre tecnologías de la información y la comunicación (TICs). 
 
-Realizo parte de mi trabajo de forma remota desde el año 2009, incluyendo la defensa de mi tesis de maestría en esta modalidad en 2015. Desde 2019 soy [Instructora certificada de RStudio](https://education.rstudio.com/trainers/) y desde 2020 Instructora certificada de Software Carpentries.
+Desde 2019 soy [Instructora certificada de RStudio](https://education.rstudio.com/trainers/) y desde 2020 [Instructora certificada de Software Carpentries](https://carpentries.org/instructors/).
 
 He organizado más de 60 eventos (de alcance regional e internacional)  entre los que se destacan ser chair general de las [Jornadas Argentinas de Informática (2020)](http://www.sadio.org.ar/jaiio/), chair del Congreso de AgroInformática,   fundadora y actual chair de [LatinR](https://latin-r.com), una de las conferencias latinoamericanas más grandes sobre el uso de R en investigación y desarrollo y parte del equipo organizador de [useR!2020](https://user2020.r-project.org/) y [useR!2021](https://user2021.r-project.org/).
 
 Soy activista de las iniciativas abiertas (software, datos, educación y ciencia). Desde 2017 soy parte de varias iniciativas voluntarias que implican trabajo remoto colaborativo con profesionales de un arco amplio de disciplinas y países, dentro de las que se destacan [R-Ladies](https://rladies.org/), MiR y  [R4DS](https://github.com/cienciadedatos). 
 
 Dentro de las actividades de estas iniciativas y que apuntan a fortalecer la región he sido parte de los equipos que hicieron la traducción del libro [R para Ciencia de Datos](https://es.r4ds.hadley.nz), del paquete datos y de varias [RStudio Cheat Sheet](https://rstudio.com/resources/cheatsheets/) al Español. También lidero la traducción del libro [Teaching Tech Together](https://teachtogether.tech/) y he sido parte de los grupos de traductores al español de varias lecciones de [The Carpentries](https://github.com/Carpentries-ES).
-
