@@ -188,6 +188,6 @@ Otra forma de implementar un tutorial es incluirlo dentro de un paquete R y hace
 
 Les dejo el [acceso al archivo RMarkdown del tutorial](https://yabellini.netlify.app/post/Tutorial/TuTorial.rmd) que fuí usando de ejemplo en este post para que puedan revisarlo, ejecutarlo y modificarlo por su cuenta.
 
-> Cross post con [mi sitio web](https://yabellini.netlify.app/es/post/tutorialesconlearnr/) y con [MetaDocencia](https://metadocencia.netlify.app/)
+> Cross post con [mi sitio web](https://yabellini.netlify.app/es/post/tutorialesconlearnr/) y con [MetaDocencia](https://www.metadocencia.org/post/tutorialesinteractivoslearnr/)
 
 
