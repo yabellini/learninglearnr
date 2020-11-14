@@ -3,7 +3,7 @@ date: "2020-10-24"
 draft: false
 type: page
 linktitle: Mapas conceptuales en un tutorial interactivo
-summary: Qué son los mapas conceptuales, como podemos utilizarlos para enseñar y como agrearlos a un tutorial de learnr.
+summary: Qué son los mapas conceptuales, como podemos utilizarlos para enseñar y como agregarlos a un tutorial de learnr.
 title: Mapas conceptuales en un tutorial interactivo
 authors: 
     - admin
@@ -58,9 +58,9 @@ knitr::include_graphics("images/mapa_conpceptual.png")
 Este código agrega el mapa conceptual al tutorial de esta manera:
 {{< figure src="/media/learnr_conceptmap_ggplot.png" alt="Captura de pantalla del tutorial con el mapa conceptual">}}
 
-Antes de ponerte a generar tus mapas conceptuales desde cero, te recomiendo que revises el [listado de mapas conceptuales generados](https://github.com/rstudio/concept-maps) por el equipo de RStudio Education y sus instructores certificados. Su licencia de uso es CC-BY y en la carpeta 'es' están las versiones traducidas al español.
+Antes de ponerte a generar tus mapas conceptuales desde cero, te recomiendo que revises el [listado de mapas conceptuales generados](https://github.com/rstudio/concept-maps) por el equipo de RStudio Education y sus instructores certificados. Su licencia de uso es [CC-BY](https://creativecommons.org/licenses/by/4.0/legalcode.es) y en la carpeta 'es' están las versiones traducidas al español.
 
-También podés revisar mi repositorio con [mapas conceptuales](https://github.com/yabellini/concept_maps) de algunas de mis lecciones y cursos.  La licencia también es CC-BY y en la carpeta 'es' están las versiones en español.
+También podés revisar mi repositorio con [mapas conceptuales](https://github.com/yabellini/concept_maps) de algunas de mis lecciones y cursos.  La licencia también es CC-BY y en la carpeta _'es'_ están las versiones en español.
 
 ### Generar un diagrama con el paquete `DiagrammeR`
 
