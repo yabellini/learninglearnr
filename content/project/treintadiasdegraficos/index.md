@@ -30,7 +30,7 @@ Como no pude participar haciendo los gráficos para cada día, generé este *min
 
 Si quieren colaborar [aquí está el repo](https://github.com/yabellini/tutorialgRaficosFN)
 
-Mis objetivos para generar este tutorial fueron:
+Mis objetivos al generar este tutorial fueron:
 
  * aprender a generar un paquete de un tutorial desarrollado en `learnr`. Usé el material del tutorial [“Package Development"](https://github.com/hadley/pkg-dev) que Hadley Wickham dictó en LatinR 2019.
  * incluir en el tutorial una serie de herramientas pedagogicas descriptas en el libro [Teaching Tech Together](https://teachtogether.tech/es/index.html)
@@ -40,13 +40,13 @@ Mis objetivos para generar este tutorial fueron:
 
 Por eso el tutorial incluye un [mapa conceptual](/post/concept_maps.md) con los temas que cubre, dos [learner personas](/post/learner_personas.md) en las cuales pensé mientras lo contruí, la [licencia de uso](), una serie de explicaciones y ejercicios para hacer gráficos en R y las fuentes de consulta.
 
-Para instalar la versión de desarrollo desde GitHub, usa (tal vez debas intalar el paquete `remotes` con `install.packages("remotes")`):
+Para instalar la versión de desarrollo desde GitHub, escribe el siguiente código (tal vez debas intalar el paquete `remotes` con `install.packages("remotes")`):
 
 `remotes::install_github("yabellini/tutorialgRaficosFN")`
 
 Si se intaló correctamente y tienes la última versión de RStudio aparecerá en tu panel de **Tutorial**.
 
-Si no tienes la ultima versión entonces hay que instalar el paquete [learnr](https://rstudio.github.io/learnr/index.html) con `install.packages("remotes")` y luego ejecutar el Tutorial de esta manera:
+Si no tienes la ultima versión entonces hay que instalar el paquete [learnr](https://rstudio.github.io/learnr/index.html) con `install.packages("learnr")` y luego ejecutar el tutorial de esta manera:
 
 `learnr::run_tutorial("graficos", package = "TutorialgRaficosFN")`
 
