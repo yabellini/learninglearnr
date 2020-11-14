@@ -21,8 +21,8 @@ url_video: ""
 
 Este paquete contiene dos plantillas para generar tutoriales con {learnr}:
 
-- La misma plantilla que viene por defecto en el paquete, pero traducida al español.
+- La misma plantilla que viene por defecto en `learnr`, pero traducida al español.
 
 - Una segunda plantilla con una sugerencia de estructura y elementos que contribuyen a que el material pueda ser compartido, reutilizado, citado y encontrado.
 
-- Una hoja CSS con estilos explicados para que puedas editar los propios.
+También tiene una hoja CSS con los estilos explicados para que la puedas editar y generar los propios.
