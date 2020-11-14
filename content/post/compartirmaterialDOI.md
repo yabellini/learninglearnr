@@ -66,7 +66,7 @@ Si nuestro material tiene código en algún lenguaje de programación, entonces 
 Listo, ya tenemos el DOI y la cita que podemos agregar a nuestro repo y pedirle a las personas que usen nuestros materiales que la utilicen para mencionarnos.
 
 
-> Cross post con [mi sitio web](https://yabellini.netlify.app) y con [MetaDocencia](https://metadocencia.netlify.app/)
+> Cross post con [mi sitio web](https://yabellini.netlify.app/es/post/compartirmaterialdoi/) y con [MetaDocencia](https://www.metadocencia.org/post/compartirmaterialdoi/)
 
 
 
