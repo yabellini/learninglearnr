@@ -38,7 +38,7 @@ hero_media = "hero-academic.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://rstudio.github.io/learnr/"
-  label = "Sitio Web de {learnr} (en inglés)"
+  label = "¿Qué es {learnr}?"
   icon_pack = "fas"
 #  icon = "download"
   
@@ -51,7 +51,7 @@ hero_media = "hero-academic.png"
 #  label = '<a class="js-github-release" #href="https://sourcethemes.com/academic/updates" #data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-**En este sitio cuento mi camino aprendiendo a usar {learnr} para generar tutoriales interactivos.**
+**Sitio con recursos en español sobre {learnr}, un paquete para generar tutoriales interactivos.**
 
 Este tipo de tutoriales son muy útiles para clases remotas, sincrónicas o asincrónicas y como ayuda de un paquete.
 
