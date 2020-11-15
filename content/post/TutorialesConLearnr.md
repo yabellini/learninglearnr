@@ -6,7 +6,7 @@ linktitle: Generando tutoriales interactivos con el paquete learnr
 summary: El paquete learnr nos permite generar tutoriales interactivos que podemos compartir con nuestros alumnos. En este post hago una pequeña introducción a este paquete.
 title: Generando tutoriales interactivos con el paquete learnr
 authors: 
-    - admin
+    - yabellini
 type: post
 weight: 1
 tags: 

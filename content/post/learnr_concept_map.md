@@ -6,7 +6,7 @@ linktitle: Un mapa conceptual sobre {learnr}
 summary: En este mapa conceptual intento describir los componentes de un tutorial de learnr.
 title: Un mapa conceptual sobre {learnr}
 authors: 
-    - admin
+    - yabellini
 type: post
 weight: 1
 tags: 

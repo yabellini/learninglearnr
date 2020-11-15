@@ -6,7 +6,7 @@ linktitle: Mapas conceptuales en un tutorial interactivo
 summary: Qué son los mapas conceptuales, como podemos utilizarlos para enseñar y como agregarlos a un tutorial de learnr.
 title: Mapas conceptuales en un tutorial interactivo
 authors: 
-    - admin
+    - yabellini
 type: post
 weight: 1
 tags: 

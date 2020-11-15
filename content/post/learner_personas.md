@@ -6,7 +6,7 @@ linktitle: Tutoriales interactivos y personas tipo
 summary: Qué son las personas tipo y como podemos utilizarlas en el diseño de nuestros tutoriales. 
 title: Tutoriales interactivos y personas tipo
 authors: 
-    - admin
+    - yabellini
 type: post
 weight: 1
 tags: 
