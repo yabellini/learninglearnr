@@ -7,5 +7,5 @@ image:
 summary: Aprende como usar {learnr} para construir tutoriales interactivos con R.
 tags:
 - Cursos
-title: Curso: Generando tutoriales interactivos con el paquete {learnr}
+title: Curso Generando tutoriales interactivos con el paquete {learnr}
 ---

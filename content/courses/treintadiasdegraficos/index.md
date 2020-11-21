@@ -15,7 +15,7 @@ tags:
 - Tutorial
 - ggplot
 
-title: Tutorial: Intro a ggplot2 para 30 días de gráficos
+title: Tutorial Intro a ggplot2 para 30 días de gráficos
 url_code: https://github.com/yabellini/tutorialgRaficosFN
 url_pdf: ""
 url_slides: ""
