@@ -51,7 +51,7 @@ hero_media = "hero-academic.png"
 #  label = '<a class="js-github-release" #href="https://sourcethemes.com/academic/updates" #data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-**Sitio con recursos en español sobre {learnr}, un paquete para generar tutoriales interactivos.**
+**Sitio con recursos en español sobre {learnr}, un paquete del [lenguaje de programación R](https://es.wikipedia.org/wiki/R_(lenguaje_de_programaci%C3%B3n)) para generar tutoriales interactivos.**
 
-Este tipo de tutoriales son muy útiles para clases remotas, sincrónicas o asincrónicas y como ayuda de un paquete.
+Este tipo de tutoriales son muy útiles para clases remotas, sincrónicas o asincrónicas y como ayuda de un paquete de R.
 
