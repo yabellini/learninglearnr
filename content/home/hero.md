@@ -37,7 +37,7 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://rstudio.github.io/learnr/"
+  url = "https://learning-learnr.netlify.app/post/tutorialesconlearnr/"
   label = "¿Qué es {learnr}?"
   icon_pack = "fas"
 #  icon = "download"
