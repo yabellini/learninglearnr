@@ -48,7 +48,7 @@ Hay al menos dos maneras de agregar un mapa conceptual a nuestros tutoriales
 
 Los mapas conceptuales se pueden generar con herramientas como editores de diapositivas (PowerPoint, Google Slides, etc.) o programas para dibujar diagramas como [diagrams.net](https://www.diagrams.net/) que se puede usar online o se puede descargar para usarlo sin conexión.
 
-Sin importar la herramienta que usemos, evetualmente, tendremos una imágen (.png, .jpg, .svn) con nuestro mapa conceptual para agregar a nuestro tutorial.  El código para hacer esto es el siguiente:
+Sin importar la herramienta que usemos, eventualmente, tendremos una imágen (.png, .jpg, .svn) con nuestro mapa conceptual para agregar a nuestro tutorial.  El código para hacer esto es el siguiente:
 
 ````{r}
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
@@ -66,13 +66,13 @@ También podés revisar mi repositorio con [mapas conceptuales](https://github.c
 
 [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) es un paquete que permite compilar texto en diagramas.  Su sintaxis es muy amplia, dependiendo del tipo de diagrama que querramos generar. Vamos a ver un ejemplo: 
 
-* Los _conceptos_ que van dentro de los recuadros se escriben entre corchetes **[]**.  Se puede dar un nombre a este nodo del diagrama para poder referenciar al mismo cuando se deban generar relaciones.  En el código de ejemplo: *A[Gráficos]* genera un rectángulo con la palabra *Gráficos* dentro que se llama _A_. La _A_ no se muestra en la visualización.
+* Los _conceptos_ que van dentro de los recuadros se escriben entre corchetes **[]**.  Se puede dar un nombre a este nodo del diagrama para poder referenciar al mismo cuando se deban generar relaciones.  En el código de ejemplo: _A[Gráficos]_ genera un rectángulo, llamado _A_, que en su interior contiene la palabra _“Gráficos”_. La _A_ no se muestra en la visualización.
 
 * Las relaciones se expresan con una flecha compuesta por dos guiones y un signo mayor: **-->**. Para asignarles un texto, se escribe dicho texto después de la flecha encerrado entre pipes **|**. Por ejemplo: **-->|tienen|** genera una flecha con el texto _tienen_.
 
-* Para completar la relación se debe indicar el nodo de origen, usando su nombre (por ejemplo la letra *A* que correspondía al nodo *Gráficos*) y el nodo destino, también usando su nombre.
+* Para completar la relación se debe indicar el nodo de origen y de destino. Estos nodos se invocan con el nombre que les dimos al crearlos: por ejemplo _A_, para referirse al rectángulo con la palabra _“Graficos”_.
 
-El siguiente código de ejemplo genera el diagrama del tutorial de gráficos.
+El siguiente código de ejemplo genera el diagrama del tutorial de gráficos que encontramos al comienzo de este post.
 
 ````{r}
 ```{r echo=FALSE}
