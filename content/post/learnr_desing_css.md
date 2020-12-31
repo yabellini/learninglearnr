@@ -38,13 +38,7 @@ body {
 }
 
 ```
-Ver bien que cambia con este em
 
-```{css, eval=FALbasadoSE}
-em {
-    color: #2b2b2b;
-}
-```
 Los siguientes elementos configuran los títulos, `h1` es el título, es el encabezado que en rmarkdown configuramos con un numeral (#), `h2` corresponde a un subtítulo (dos numerales) y así hasta el encabezado de quinto nivel (`h5`).  En el caso de `h1` y `h2` definimos un color para la fuente (`color`), un color de fondo (`background-color`) y un espacio alrededor del título (`padding`). 
 
 ```{css, eval=FALbasadoSE}
@@ -78,9 +72,11 @@ a {
 
 ### Botones
 
+Los tutoriales presentan varios botones, por ejemplo: `Continue` que separa los temas; `Submit Answer` y `Try Again` en las preguntas; `Run Code` y `Hints` en los ejercicios.
 
+Para cambiar su apariencia es necesario especificar las propiedades de los botones en general y luego de acuerdo al estado y acciones sobre esos botones (`.btn:hover, .btn:active, .btn:disabled`), como se muestra en el siguiente código:
 
-```{css, eval=FALbasadoSE}
+```{css, eval=FALSE}
 
 .btn {
   background-color: #C83737;
