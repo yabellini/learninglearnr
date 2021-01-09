@@ -26,25 +26,24 @@ Creando un archivo `.css` podemos personalizar todos los elementos de nuestro tu
 
 ## Los elementos de un CSS
 
-Para aprender más sobre CSS y como escribir estas hojas de estilos el siguiente sitio web me fue muy útil. [Acceder al sitio web](https://www.w3schools.com/css)
+Para aprender más sobre CSS y como escribir estas hojas de estilos el siguiente sitio web me fue muy útil. [Acceder al sitio web](https://developer.mozilla.org/es/docs/Web/CSS).
+En CSS, existen _selectores_ que se utilizan para hacer referencua a los elementos HTML en las páginas web que queremos diseñar. Hay una muy amplia variedad de selectores de CSS  que permiten un diseño detallado con una precisión muy fina.
+
+En este post veremos los selectores y las propiedades principales para personalizar el diseño de nuestros tutoriales.
 
 ### Elementos principales
 
-El siguiente código define la fuente y el tamaño de la letra para el cuerpo (`body`) del tutorial.  El tamaño está de acuerdo a las sugerencias de accesibilidad realizadas por MetaDocencia. [Acceder al post](https://www.metadocencia.org/post/accesibilidad_1/)
-
+El siguiente código define la fuente y el tamaño de la letra para el cuerpo (`body`) del tutorial.  El tamaño y tipo de letra está de acuerdo a las sugerencias de accesibilidad realizadas por MetaDocencia. [Acceder al post](https://www.metadocencia.org/post/accesibilidad_1/)
 
 ```{css, eval=FALSE}
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14;
 }
-
 ```
-
 Los siguientes elementos configuran los títulos, `h1` es el título, es el encabezado que en rmarkdown configuramos con un numeral (#), `h2` corresponde a un subtítulo (dos numerales) y así hasta el encabezado de quinto nivel (`h5`).  En el caso de `h1` y `h2` definimos un color para la fuente (`color`), un color de fondo (`background-color`) y un espacio alrededor del título (`padding`). 
 
 ```{css, eval=FALSE}
-
 h1, h2 {
   color: #C83737;
   background-color: #f7f7f7;
@@ -54,26 +53,27 @@ h1, h2 {
 h3, h4, h5{
   color: #C83737;
 }
-
 ```
 Asi se ven los cambios que realiza este css en la plantilla.  Cambia el color y tamaños del texto de la fuente y del fondo de los encabezados y del título:
 
 {{< figure src="/media/css_cambios_body_encabezados.png" alt="Elementos de un tutorial learnr y su estilo en títulos y encabezados cambiado">}}
 
-Este código configura la apariencia de los links (chequear el .ace-tm).
+Este código configura la apariencia de los links, el selector `a:hover` hace referencia a la apariencia del link cuando estamos _arriba_ del link, queda del mismo color pero agrega el subrayado.  
 
-```{css, eval=FALbasadoSE}
+```{css, eval=FALSE}
 a {
     color: #C83737;
     text-decoration: none;
 }
 
-.ace-tm {
-    background-color: #ffffff;
-    color: black;
+a:hover {
+    color: #C83737;
 }
 
 ```
+Si no configuramos ese selector, entonces cuando estemos arriba del link cambiará a un color celeste con el subrayado.  En la figura se muestra la diferencia:
+
+{{< figure src="/media/css_cambios_links.png" alt="Diferente aspecto en color de un link">}}
 
 ### Botones
 
@@ -82,7 +82,6 @@ Los tutoriales presentan varios botones, por ejemplo: `Continue` que separa los 
 Para cambiar su apariencia es necesario especificar las propiedades de los botones en general y luego de acuerdo al estado y acciones sobre esos botones (`.btn:hover, .btn:active, .btn:disabled`), como se muestra en el siguiente código:
 
 ```{css, eval=FALSE}
-
 .btn {
   background-color: #C83737;
   color: #fff;
@@ -108,9 +107,6 @@ Para cambiar su apariencia es necesario especificar las propiedades de los boton
   background-color: #aa2f2f;
   color: #fff;
 }
-
 ```
 
-### Agregar una imágen
-
-{{< figure src="/media/rmarkdown_concept_map.svg" alt="Mapa conceptual de RMarkdown">}}
+{{< figure src="/media/css_botones.png" alt="Diferente aspecto en color de los botones en diferentes estados">}}
