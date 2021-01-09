@@ -14,6 +14,8 @@ tags:
     - Mapas Conceptuales
     - Open Education
 ---
+{{< figure src="/media/mapa_conceptual_post.jpg" alt="esquemas de dos mapas conceptuales vacios">}}
+<a href="http://www.freepik.com">Designed by Freepik</a>
 
 ## ¿Qué es un mapa conceptual?
 
