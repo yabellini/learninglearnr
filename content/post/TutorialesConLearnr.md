@@ -14,7 +14,7 @@ tags:
     - Open Education
 ---
 
-Desde el año pasado (2019) empecé a utilizar el paquete `learnr` que permite utilizar documentos RMarkdown para generar tutoriales interactivos.  En este post les cuento que aprendí hasta ahora. 
+Durante el 2019 empecé a utilizar el paquete `learnr` que permite utilizar documentos RMarkdown para generar tutoriales interactivos.  En este post les cuento las partes básicas de un tutorial y como generarlas. 
 
 Como se explica en [la página del paquete](https://rstudio.github.io/learnr/), los tutoriales consisten en contenido (texto, figuras, ilustraciones, ecuaciones, videos, etc.) junto con componentes interactivos, como preguntas con múltiples opciones y fragmentos de código de R que los usuarios pueden editar y ejecutar directamente, para verificar y reforzar la comprensión. 
 
@@ -28,7 +28,7 @@ Además el tutorial puede ser publicado de dos maneras: como una Shiny App o com
 ## Cómo creo un tutorial
 
 
-Lo primero es instalar el paquete `learnr` (`install.packages("learnr")`).  Esta instalación agrega un nuevo _template_ que podemos seleccionar cuando creamos un documento rmarkdown.  
+Lo primero es instalar el paquete `learnr` ejecutando la función `install.packages("learnr")`.  Esta instalación agrega un nuevo _template_ (plantilla) que podemos seleccionar cuando creamos un documento rmarkdown.  
 
 Para generar un nuevo documento seleccionamos **File -> New File -> RMarkdown -> From Template -> Interactive Tutorial**, completamos el campo **Name** y presionamos el botón **Ok** (pasos 1 a 6 en la siguiente figura).
 
@@ -39,7 +39,7 @@ Esto crea un nuevo documento RMarkdown con el formato para un tutorial y ejemplo
 
 ### Encabezado
 
-Este documento tiene un encabezado YAML con los elementos `title`, `output` y `runtime`, es aconsejable agregar una descripción del tutorial con el elemento `description` (que no viene por defecto en la plantilla) porque se mostrará junto con el título en el panel Tutorial:
+Este documento tiene un encabezado _YAML_ con los elementos `title`, `output` y `runtime`, es aconsejable agregar una descripción del tutorial con el elemento `description` (que no viene por defecto en la plantilla) porque se mostrará junto con el título en el panel Tutorial:
 
 ```
 ---
