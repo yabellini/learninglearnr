@@ -182,7 +182,7 @@ Se pueden generar muchos tipos diferentes de notas de acuerdo a nuestras necesid
 
 ## Fuentes
 
-Para realizar el armado del css de MetaDocencia para los tutoriales utilicé los siguientes recursos:
+Para realizar el armado del css de MetaDocencia para los tutoriales y escribir este post utilicé los siguientes recursos:
 
 * [Making pretty note boxes](https://desiree.rbind.io/post/2019/making-tip-boxes-with-bookdown-and-rmarkdown/) de Desirée De Leon
 
