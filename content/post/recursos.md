@@ -60,4 +60,8 @@ Hay paquetes que nos pueden ayudar a agregarle funcionalidades a nuestros tutori
 
 * [glosario](https://github.com/carpentries/glosario-r): permite a los usuarios crear y recuperar glosarios multilingües y se pueden agregar como links a las definiciones dentro de los tutoriales.
 
-* [Flash Cards](https://github.com/henningsway/r2anki) y (https://github.com/jienagu/flashCard)
+* [Flash Cards](https://github.com/jienagu/flashCard): crear tarjetas de memoria para Shiny a partir de un set de datos.
+
+* [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/): permite compilar texto en diagramas.  En [este post explico como usarlo.](https://learning-learnr.netlify.app/post/concept_maps/)
+
+Espero que este listado de materiales te resulten tan útiles como a mi, ¿tenés alguno que no está listado aquí?, compartilo en los comentarios.
