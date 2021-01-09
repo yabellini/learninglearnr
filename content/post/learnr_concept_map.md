@@ -14,6 +14,8 @@ tags:
     - Mapas Conceptuales
     - Open Education
 ---
+{{< figure src="/media/concept_map_learnr_post.jpg" alt="Esquema con estilo dibujado a mano de un mapa conceptual sobre tutoriales">}}
+<a href="http://www.freepik.com">Designed by Freepik</a>
 
 ## Mapas conceptuales
 
