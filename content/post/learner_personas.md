@@ -15,6 +15,9 @@ tags:
     - Open Education
 ---
 
+{{< figure src="/media/personas_post.jpg" alt="Estudiantes viendo conferencia grabada con profesor hablando desde tableta">}}
+<a href="http://www.freepik.com">Designed by vectorjuice / Freepik</a>
+
 ## ¿Qué es una persona tipo?
 
 Las [personas tipo](https://teachtogether.tech/es/index.html#s:process-personas) se conocen en inglés como _Learner Personas_ y su objetivo es describir el público para el que fue pensado el curso. Esta información debería ayudar en:

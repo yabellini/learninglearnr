@@ -12,10 +12,9 @@ weight: 1
 tags: 
     - Recursos
 ---
-
+{{< figure src="/media/recursos.png" alt="Captura de pantallas de diferentes tutoriales learnr">}}
 En este post les comparto una lista de materiales que me ayudaron a aprender sobre `learnr`.  Este listado se va actualizando en [este repositorio](https://github.com/yabellini/curso_learnr).
 
-{{< figure src="/media/recursos.png" alt="Captura de pantallas de diferentes tutoriales learnr">}}
 
 ## Información oficial del paquete
 

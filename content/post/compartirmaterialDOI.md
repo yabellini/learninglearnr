@@ -14,6 +14,8 @@ tags:
   - Open Education
   - tips técnicos
 ---
+{{< figure src="/media/doi_post.jpg" alt="Personas generando materiales, libros, lecciones trabajando juntas">}}
+<a href="http://www.freepik.com">Designed by vectorjuice / Freepik</a>
 
 Como se detalla en [[1]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005963) generar material educativo requiere un esfuerzo significativo tanto para su desarrollo inicial como para mantenerlo actualizado.
 

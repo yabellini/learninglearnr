@@ -14,6 +14,9 @@ tags:
     - tips técnicos
 ---
 
+{{< figure src="/media/css_post.jpg" alt="grupo de personas diseñando">}}
+<a href="http://www.freepik.com">Designed by vectorjuice / Freepik</a>
+
 ## Personalizando nuestros tutoriales
 
 Los tutoriales generados con learnr terminan generando un archivo HTML (siglas en inglés de _Hiper Text Markup Language_), por lo que podemos cambiar su estilo utilizando _CSS_ (siglas en inglés de _Cascading Style Sheets_), en español _Hojas de estilo en cascada_.
