@@ -183,6 +183,16 @@ La nota se visualiza como un recuadro gris con marco rojo, una manzanita roja a 
 
 Se pueden generar muchos tipos diferentes de notas de acuerdo a nuestras necesidades.
 
+## Para aprender más sobre CSS
+
+Los siguientes sitios rescatados de twitter tienen diferentes recursos para aprender y probar cosas con CSS:
+
+* https://cssstats.com/
+* https://csstriggers.com/
+* https://cubic-bezier.com/#.17,.67,.83,.67
+* https://flexbox.tech/
+* https://type-scale.com/
+
 ## Fuentes
 
 Para realizar el armado del css de MetaDocencia para los tutoriales y escribir este post utilicé los siguientes recursos:
