@@ -64,4 +64,6 @@ Hay paquetes que nos pueden ayudar a agregarle funcionalidades a nuestros tutori
 
 * [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/): permite compilar texto en diagramas.  En [este post explico como usarlo.](https://learning-learnr.netlify.app/post/concept_maps/)
 
+* [learnres](https://github.com/yabellini/learnres): paquete de plantillas en español para armar tutoriales interactivos
+
 Espero que este listado de materiales te resulten tan útiles como a mi, ¿tenés alguno que no está listado aquí?, compartilo en los comentarios.
