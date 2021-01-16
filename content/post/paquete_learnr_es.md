@@ -3,7 +3,7 @@ date: "2021-01-15"
 draft: false
 type: page
 linktitle: Learnres. Un paquete de plantillas para tutoriales en español
-summary: basado en learnr este paquete te presenta una serie de plantillas para tutoriales en español.
+summary: Basado en learnr este paquete te presenta una serie de plantillas para tutoriales en español.
 title: Learnres. Un paquete de plantillas para tutoriales en español
 authors: 
     - yabellini
@@ -13,9 +13,8 @@ tags:
     - Recursos
     - Paquetes
 ---
-{{< figure src="/media/recursos.png" alt="Captura de pantallas de diferentes tutoriales learnr">}}
 
-el paquete `learnres` es un paquete open source con plantillas en español para generar tutoriales interactivos. Al día de hoy este paquete contiene dos plantillas para generar tutoriales con {learnr}:
+El paquete `learnres` es un paquete open source con plantillas en español para generar tutoriales interactivos. Al día de hoy este paquete contiene dos plantillas para generar tutoriales con {learnr}:
 
 - La misma plantilla que viene por defecto en `learnr`, pero traducida al español.
 
