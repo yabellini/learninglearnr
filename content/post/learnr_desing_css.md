@@ -201,7 +201,7 @@ Para realizar el armado del css de MetaDocencia para los tutoriales y escribir e
 
 * [Paquete ouitheme](https://github.com/Athanasiamo/uiothemes) de Athanasia Monika Mowinckel
 
-* [Teach R with learnr: a powerful tool for remote teaching](https://education.rstudio.com/blog/2020/05/learnr-for-remote/)
+* [Teach R with learnr: a powerful tool for remote teaching](https://education.rstudio.com/blog/2020/05/learnr-for-remote/) de Allison Horst
 
 * [Mozilla Developer CSS guide](https://developer.mozilla.org/es/docs/Web/CSS).
 
