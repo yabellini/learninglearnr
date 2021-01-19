@@ -1,6 +1,6 @@
 ---
 date: "2021-01-15"
-draft: true
+draft: false
 type: page
 linktitle: Learnres. Un paquete de plantillas para tutoriales en español
 summary: Basado en learnr este paquete te presenta una serie de plantillas para tutoriales en español.
