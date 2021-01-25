@@ -30,7 +30,8 @@ Hay muchos recursos para seguir explorando, aqui listamos algunos que nos ayudar
 
 Te dejamos acceso al video de este curso dictado en el marco de [LatinR 2020](https://latin-r.com/) con la mayoría del contenido de este curso on-line.
 
-{{< youtube n6IaftU1yjM >}}
+{{< youtube d7eXzRzEdC8 >}}
+
 
 ### Slides
 
