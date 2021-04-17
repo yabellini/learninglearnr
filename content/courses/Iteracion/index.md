@@ -22,7 +22,11 @@ url_slides: ""
 url_video: ""
 ---
 
+El objetivo de este paquete contiene dos tutoriales para introducir el concepto de iteración en R.
 
+La iteración es la tarea de aplicar una función de forma iterativa a cada elemento de un vector. El primer tutorial explicará qué es un vector e introducirá dos formas de iterar en R: bucles `for` y el paquete `purrr`.
+
+El segundo tutorial introduce la familia de funciones map de `purrr` que hace que la iteración sea rápida y fácil. Aprenderás los secretos de `map()` y sus variantes.
 
 Si quieren colaborar [aquí está el repo](https://github.com/yabellini/tutorialgRaficosFN)
 
