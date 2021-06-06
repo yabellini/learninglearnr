@@ -43,7 +43,7 @@ user_groups:
 
 Soy investigadora de [INTA]((https://inta.gob.ar/anguil)) en La Pampa, Argentina, donde vivo con mi marido y mis dos hermosos hijos.  Soy fundadora de [MetaDocencia](https://metadocencia.netlify.app/) una organización educativa abierta, gratuita, dirigida por voluntarios y sin fines de lucro que _enseña a docentes de habla hispana herramientas y estratégias para enseñar tecnología tanto de forma on-line como presencial_.
 
-Tengo experiencia docente en todos los niveles educativos, desde primario a universitario, desde 1993. He formado docentes desde 1996 a través de la Red Federal de Formación Docente Continua (Ministerio de Educación de la Nación) y el sistema de transferencia y extensión del INTA. Dicté más de 60 cursos y talleres sobre tecnologías de la información y la comunicación (TICs). 
+Tengo experiencia docente en todos los niveles educativos, desde primario a universitario, desde 1993. He formado docentes desde 1996 a través de la Red Federal de Formación Docente Continua (Ministerio de Educación de la Nación) y el sistema de transferencia y extensión del INTA. Dicté más de 60 cursos y talleres sobre tecnologías de la información y la comunicación (TICs). Actualmente soy docente en diplomaturas de la Universidad Nacional Guillermo Brown (Argentina) y de la Facultad de Ciencias Agrarias de la Universidad de la Empresa (Uruguay).
 
 Desde 2019 soy [Instructora certificada de RStudio](https://education.rstudio.com/trainers/) y desde 2020 [Instructora certificada de Software Carpentries](https://carpentries.org/instructors/).
 
