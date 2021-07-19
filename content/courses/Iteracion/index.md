@@ -10,12 +10,12 @@ links:
   name: Follow
   url: https://twitter.com/yabellini
 slides: 
-summary: Paquete con dos tutoriales para aprender Iteración en R
+summary: Paquete con dos tutoriales para aprender iteración en R
 tags:
 - Tutorial
 - purrr
 
-title: Tutorial de introducción a la iteracción con R
+title: Tutorial de introducción a la iteración con R
 url_code: https://github.com/yabellini/TutorialIterar
 url_pdf: ""
 url_slides: ""
